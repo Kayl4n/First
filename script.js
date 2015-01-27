@@ -1,4 +1,4 @@
-$("#checkToggle").change(function() {
+$('#checkToggle').change(function() {
     if ($(this).is(":checked"))
     {
         $('.listitem').prop("checked",true);
@@ -10,4 +10,8 @@ $("#checkToggle").change(function() {
 
 $('input[type="text"]').focus(function() {
 	$(this).css('outline-color','goldenrod');
+});
+
+$('.dropdown').click(function() {
+	$('.dropdownitem').toggle();
 });

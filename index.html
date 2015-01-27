@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>JS Practice</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,46 +24,36 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Portfolio</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-        </div><!--/.navbar-collapse -->
+        </div>
       </div>
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h2>Javascript Practice - Forms</h2>
-        <p>This page will have a sample form with some jquery effects.</p>
+        <h2>Javascript/jQuery</h2>
+        <p>Here is my page for testing out and showing some scripts I've written.</p>
       </div>
     </div>
 
     <div class="container">
       <!-- Example row of columns -->
-      <!--<div class="row">
+      <div class="row">
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h3>A simple toggle effect</h3>
+          <p>
+            <div class="btn btn-default dropdown">
+              Click here to display a drop down!
+            </div>
+          </p>
+          <p><span class="dropdownitem"> Hello! </span><br /></p>
+          <p>
+            Useful for a drop-down navigation, question/answers, or 'hide/show spoilers'.
+          </p>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>-->
 
       <div class="row">
         <div class="col-lg-12">
@@ -71,7 +61,7 @@
           <p> Including a checkbox that, when clicked, toggles whether all checkboxes are checked. <br />
             Also added a golden highlight effect that appears on text inputs that have focus. Both being done with jQuery. </p>
           <p>
-          <form name="form1">
+          <form name="form1" method="post">
               <input type="checkbox" name="checkToggle" id="checkToggle" /> <label for="checkToggle">Toggle check/uncheck all.</label> <br />
               <input type="checkbox" name="ex1" class="listitem" /> Check 1<br />
               <input type="checkbox" name="ex2" class="listitem" /> Check 2<br />
@@ -80,7 +70,7 @@
               <input type="text" name="fname" />&nbsp;&nbsp;<input type="text" name="lname" /> <br /><br />
 
               <h4>HTML5 Datalist:</h4>
-              Start typing a day of the week and it will help finish your word. Or you can click it and select from the dropdown.<br />
+              Start typing a day of the week and it will help finish your word, or you can click it and select from the dropdown. Datalist is a bit different from a regular dropdown, as you can write any input and are not limited to what appears in the list.<br />
               <input type="text" list="day" />
               <datalist id="day">
                 <option value="Monday">Monday</option>
@@ -89,6 +79,8 @@
                 <option value="Thursday">Thursday</option>
                 <option value="Friday">Friday</option>
               </datalist>
+              <br /><br />
+              <input type="submit" class="btn" value=" submit " />
             </form>
           </p>
         </div>

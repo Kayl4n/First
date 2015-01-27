@@ -3,3 +3,9 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.dropdownitem {
+	display:none;
+	color: #4aba79;
+	font-weight: bold;
+}
